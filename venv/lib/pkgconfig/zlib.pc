@@ -1,0 +1,13 @@
+prefix=/Users/abelabykuriakose/Desktop/code-DSA/NLP/venv
+exec_prefix=/Users/abelabykuriakose/Desktop/code-DSA/NLP/venv
+libdir=/Users/abelabykuriakose/Desktop/code-DSA/NLP/venv/lib
+sharedlibdir=/Users/abelabykuriakose/Desktop/code-DSA/NLP/venv/lib
+includedir=/Users/abelabykuriakose/Desktop/code-DSA/NLP/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
